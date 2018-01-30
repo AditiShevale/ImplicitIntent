@@ -17,7 +17,7 @@ TextView txt1;
 
        Bundle b1 = getIntent().getExtras();
 //       Access data
-       String s1 = b1.getString("name");
+       String s1 = b1.getString("Name");
 
 //       Set S1 to TextView
         txt1.setText(s1);
